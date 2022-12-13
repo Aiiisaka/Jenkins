@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-     registry = "atos06/ipiformation"
+     registry = "aiiisaka/mon_serveur_jenkins"
      registryCredential = 'docker-hub-credentials'
      dockerImage = ''
   }
